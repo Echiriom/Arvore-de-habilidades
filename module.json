@@ -1,0 +1,28 @@
+{
+  "id": "simple-skill-tree",
+  "title": "Simple Skill Tree",
+  "description": "Adds a simple visual skill tree to D&D5e actors.",
+  "version": "0.1.0",
+  "authors": [
+    { "name": "SeuNome" }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "systems": [
+      { "id": "dnd5e", "type": "system", "compatibility": {} }
+    ]
+  },
+  "scripts": [
+    "scripts/init.js",
+    "scripts/skill-tree-app.js"
+  ],
+  "styles": [
+    "styles/skill-tree.css"
+  ],
+  "templates": [
+    "templates/skill-tree.html"
+  ]
+}
