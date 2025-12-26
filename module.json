@@ -1,7 +1,7 @@
 {
   "id": "arvore-de-habilidades",
   "title": "Árvore de Habilidades",
-  "description": "Skill Tree visual simples para Foundry VTT",
+  "description": "Sistema visual de árvore de habilidades para D&D 5e.",
   "version": "0.1.0",
   "authors": [
     {
@@ -12,7 +12,11 @@
     "minimum": "11",
     "verified": "11.315"
   },
+  "systems": ["dnd5e"],
   "scripts": [
-    "scripts/init.js"
-  ]
+    "init.js"
+  ],
+  "url": "https://github.com/Echiriom/Arvore-de-habilidades",
+  "manifest": "https://raw.githubusercontent.com/Echiriom/Arvore-de-habilidades/main/module.json",
+  "download": "https://github.com/Echiriom/Arvore-de-habilidades/releases/download/v0.1.0/arvore-de-habilidades.zip"
 }
